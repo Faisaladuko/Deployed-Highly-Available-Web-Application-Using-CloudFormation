@@ -131,6 +131,6 @@ Resources:
 Outputs:
   DNSOUTPUT:
     Description: Oputs the DNS name for the webapp
-    Value: !Ref WebAppLB
+    Value: !GetAtt WebAppLB.DNSName
     
     
