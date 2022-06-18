@@ -63,8 +63,6 @@ Resources:
           echo "Faisal Aduko Wahabu Website is Up and Running!" > index.html    
       # ToDo: AMI ID of Ubuntu Linux machine. Too get one, try creating a VM from the web console. 
       ImageId: ami-0ac73f33a1888c64a
-      # ToDo: Change the key-pair name, as applicable to you. 
-      KeyName: FaisalProject2
       SecurityGroups:
       - Ref: WebServerSecGroup
       InstanceType: t3.medium
